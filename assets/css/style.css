@@ -1,0 +1,96 @@
+/*
+    red: #E63946
+    white: #E8F1F2
+    navy: #13293D
+    blue: #457B9D
+    black: #00171F
+    green: #6ccaad
+*/
+
+@font-face {
+  font-family: "Kimberley";
+  src: url("simplifica.ttf")
+}
+
+body{
+    font-family: 'Kimberley', sans-serif;
+    color: #6ccaad;
+    background-color: #00171F;
+}
+img{
+    position: absolute;
+    width:100%;
+    height:100vh;
+}
+.page{
+    text-align: center;
+    top: 5%;
+    width: 100%;
+    height: 100vh;
+}
+.title{
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+hr{
+    border: 2.5px dotted #13293D;
+}
+
+
+
+
+
+/* CSS for page 1*/
+.header{
+    font-size:100px;
+    letter-spacing: 4px;
+}
+.subtitle{
+    font-size:20px;
+    letter-spacing: 2px;
+}
+
+
+
+
+/*CSS for page 2*/
+.page2{
+    text-align: center;
+    top: 5%;
+    width: 100%;
+    height: 100vh;
+}
+.imageContainer{
+    border:1px solid blue;
+}
+
+
+
+
+
+
+/*CSS for page 3*/
+.colorContainer{
+    margin-left: 1%;
+}
+.table{
+    border-style:hidden;
+    width: 99%;
+}
+td{
+    height:85vh;
+    color: black;
+    font-size: 50px;
+}
+.red{
+    background-color: #FF6B6B;
+}
+.yellow{
+    background-color: #FFD166;
+}
+.green{
+    background-color: #06D6A0;
+}
+.blue{
+    background-color: #118AB2;
+}
