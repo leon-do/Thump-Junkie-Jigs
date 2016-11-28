@@ -12,15 +12,13 @@
   src: url("simplifica.ttf")
 }
 
+
+/*general CSS*/
 body{
+    font-size: 100px;
     font-family: 'Kimberley', sans-serif;
     color: #6ccaad;
     background-color: #00171F;
-}
-img{
-    position: absolute;
-    width:100%;
-    height:100vh;
 }
 .page{
     text-align: center;
@@ -29,7 +27,6 @@ img{
     height: 100vh;
 }
 .title{
-    font-size: 50px;
     letter-spacing: 4px;
 }
 hr{
@@ -38,22 +35,28 @@ hr{
 
 
 
+/*Image CSS*/
+.waterGif{
+    position: absolute;
+    width:100%;
+    height:100vh;
+}
 
 
-/* CSS for page 1*/
+
+/* CSS for page page 1 Header*/
 .header{
-    font-size:100px;
     letter-spacing: 4px;
 }
 .subtitle{
-    font-size:20px;
     letter-spacing: 2px;
+    font-size: 0.4em;
 }
 
 
 
 
-/*CSS for page 2*/
+/*CSS for page 2. The Jig*/
 .page2{
     text-align: center;
     top: 5%;
@@ -69,28 +72,70 @@ hr{
 
 
 
-/*CSS for page 3*/
+/*CSS for page 3. Custom*/
 .colorContainer{
     margin-left: 1%;
 }
 .table{
     border-style:hidden;
+    table-layout: fixed; /* evenly spaced */
+    height:70vh;
     width: 99%;
 }
 td{
-    height:85vh;
-    color: black;
-    font-size: 50px;
+    font-size: 0.5em;
+    color: #00171F;
 }
-.red{
+tr{
+    border-style:hidden;
+}
+.color1{
     background-color: #FF6B6B;
 }
-.yellow{
+.color2{
     background-color: #FFD166;
 }
-.green{
+.color3{
     background-color: #06D6A0;
 }
-.blue{
+.color4{
     background-color: #118AB2;
 }
+.color5{
+    background-color: #DB0A5B;
+}
+.color6{
+    background-color: #ecf0f1;
+}
+.color7{
+    background-color: #b4f209;
+}
+.color8{
+    background-color: #1F3A93;
+}
+
+
+
+/*CSS for page 4 Affordable*/
+
+
+
+
+/*CSS for page 5 deadly*/
+.igContainer{
+    margin-top: 10%;
+}
+.igImage:hover{
+    width:205px;
+}
+
+
+
+
+
+
+
+
+
+
+.
