@@ -26,11 +26,14 @@ body{
     text-align: center;
     top: 5%;
     width: 100%;
-    height: 100vh;
 }
 hr{
     border: 2.5px dotted #13293D;
 }
+.dots{
+    text-align: center;
+}
+
 
 
 
@@ -65,7 +68,6 @@ hr{
     text-align: center;
     top: 5%;
     width: 100%;
-    height: 100vh;
 }
 .imageContainer{
     border:1px solid blue;
@@ -84,7 +86,6 @@ hr{
 /*CSS for page 3. Custom*/
 .table{
     table-layout: fixed; /* evenly spaced */
-    height:20vh;
 }
 td{
     font-size: 7vw;
@@ -132,9 +133,6 @@ tr{
 .igContainer{
     margin-top: 10%;
 }
-.igImage:hover{
-    width:205px;
-}
 
 
 
@@ -144,10 +142,8 @@ tr{
     border:1px solid #00171F;
     border-radius: 10px;
 }
-.nathanImg:hover{
-    border:1px solid #E63946;
-}
 .igLink{
-    color: #E63946;
-    text-decoration: underline;
+    padding: 5px;
+    border:1px solid #3279B5;
+    border-radius: 10px;
 }
